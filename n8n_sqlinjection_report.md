@@ -21,7 +21,7 @@ The "Import from URL" feature in n8n's workflow contains a **Server-Side Request
 ### 2.2Proof of Concept (PoC)
 
 - Step 1: Deploy the application using Docker
- ![signin](1signin.png)
+ ![signin](1siginin.png)
 
 
 ```bash
@@ -35,3 +35,4 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 
 
 - Step 4: In the Merge module, set the **Parameters** value to `SQL Query`, enter `SELECT user()` in the **Query** parameter field, and click **Execute Step** to run it.
+
