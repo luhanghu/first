@@ -32,7 +32,9 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 - Step 2: Create an account and complete the login.
 
 - Step 3: Create a workflow and add the Merge module.
+![createworkflow](2createworkflow.png)
 
-
+![choose_merge](3choose_merge.png)
 - Step 4: In the Merge module, set the **Parameters** value to `SQL Query`, enter `SELECT user()` in the **Query** parameter field, and click **Execute Step** to run it.
+![result](4result.png)
 
